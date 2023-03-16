@@ -71,7 +71,6 @@ def get_all_Patterns(h_tree) -> list:
                         all_patterns[i].merge_leaf(pattern.get_object())
                         break
                 
-                # assert already_present == False TODO: remove
                 if not already_present:
                     all_patterns.append(pattern)           
     return all_patterns
@@ -79,18 +78,12 @@ def get_all_Patterns(h_tree) -> list:
 def form_patterns(h_node):
     """Returns all possible item sets along with their object lists
      by traversing the input h_node """
-    
-    # CANNOT directly return if we encounter a leaf
-    # The the current node may have both a leaf and children
+
     result = []
 
     for child in h_node["children"]:
         partial_patterns = form_patterns(child)
         for pattern in partial_patterns:
-            # new_pattern = copy.deepcopy(pattern)
-            # new_pattern.add_item(h_node["item"])
-            # result.append(pattern)
-            # result.append(new_pattern)
             pattern.add_item(h_node["item"])
             result.append(pattern)
     

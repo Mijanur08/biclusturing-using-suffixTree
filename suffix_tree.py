@@ -78,27 +78,3 @@ def build(suffix):
         h_node["children"].append(build(suffix[1:]))
     return h_node
 
-
-# if __name__ =='__main__':
-
-#     SFD_mdm = {
-#         "O1": [1,3,4,5],
-#         "O2": [2,6,7],
-#         "O3": [3,4,5],
-#         "O5": [2,6,7],
-#         "O6": [1,3,4,5],
-#         "O7": [2,6,7],
-#         "O8": [1,3,4,5],
-#         "O9": [2,6,7],
-#         "O10": [1,3,4,5,6,7]
-#     }
-
-
-#     tree = build_sufix_tree(SFD_mdm)
-
-#     from printing_util import generate_tree_image
-#     generate_tree_image(tree, "tree.png")
-
-#     from json import dumps
-#     with open("tree.json", "w") as outputfile:
-#         outputfile.write(dumps(tree, indent=2))

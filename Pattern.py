@@ -44,27 +44,11 @@ class Pattern:
         return Pattern(itemset, new_object)
 
     def merge_leaf(self, leaf: list):
-        # for ele in leaf:
-        #     if ele not in self.get_object():
-        #         self.object.append(ele)
         self.object = list(set(self.get_object()).union(set(leaf)))
     
     def is_object_subset(self, object1, object2):
         """Returns whether object1 is a subset of object2"""
-
-        # for state in list(object1.keys()):
-        #     if state not in object2.keys():
-        #         return False
-        #     else:
-        #         for type in object1[state]:
-        #             if type not in object2[state]:
-        #                 False
-        # for ele in object1:
-        #     if ele not in object2:
-        #         return False
-        # return True
         return set(object1).issubset(set(object2))
-        # return True
 
     def has_same_object(self, other):
         return self.is_object_subset(self.object, other.get_object()) and self.is_object_subset(other.get_object(), self.object)
@@ -74,6 +58,9 @@ class Pattern:
     
     def support_count(self):
         return len(self.object)
+    
+    def get_object_as_line(self):
+        return str(self.get_object())
         
     def toJSON(self, include_object = False) ->dict:
         JSON = {

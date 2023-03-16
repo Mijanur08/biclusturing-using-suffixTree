@@ -1,3 +1,1 @@
-,Antecedent,Consequent,Confidence,Support Count
-0,"['Bread', 'Panner', 'Coffee Powder']",['Tea Powder'],1.0,8
-1,"['Bread', 'Panner', 'Coffee Powder', 'Butter']",['Tea Powder'],1.0,5
+,Antecedent,Consequent,Confidence,Support Count,lift

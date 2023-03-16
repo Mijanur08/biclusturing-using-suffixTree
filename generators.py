@@ -31,16 +31,14 @@ def get_generators(FCP: list):
                         not_generator = True
                         break
                 if not_generator == False:
-                    #TODO: Is this what is meant by "for all C ∈ FCP preceding F ∈ FCP" ?
                     for j in range(i):
                         if subset.issubset(FCP[j].get_itemset()):
                             not_generator = True
                             break
                 if not_generator == False:
-                    #TODO: Is this the correct Object List for the generators ?
                     GEN.append([Pattern(subset, pattern.get_object()), pattern])
                     found_gen = True
-                    #TODO: Should we break here and not test other subsets ?
+
             generator_size += 1
 
         if found_gen == False:
@@ -59,6 +57,3 @@ def get_all_subsets(subset: set, n: int) ->list:
     """Returns all possible subsets of size n from the given subset"""
     return [set(tpl) for tpl in itertools.combinations(subset, n)]
 
-
-if __name__ == "__main__":
-    print(get_all_subsets(set([1, 2, 3, 4, 5]), 3))
