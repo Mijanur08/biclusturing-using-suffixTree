@@ -3,6 +3,81 @@
     "item": 1,
     "children": [
       {
+        "item": 5,
+        "children": [
+          {
+            "item": 6,
+            "children": [
+              {
+                "item": 7,
+                "children": [
+                  {
+                    "item": 11,
+                    "children": [
+                      {
+                        "item": 12,
+                        "children": [],
+                        "leaf": [
+                          "T1"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 4,
+        "children": [
+          {
+            "item": 6,
+            "children": [
+              {
+                "item": 9,
+                "children": [
+                  {
+                    "item": 11,
+                    "children": [
+                      {
+                        "item": 12,
+                        "children": [],
+                        "leaf": [
+                          "T5"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  },
+                  {
+                    "item": 8,
+                    "children": [
+                      {
+                        "item": 12,
+                        "children": [],
+                        "leaf": [
+                          "T9"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
         "item": 3,
         "children": [
           {
@@ -12,23 +87,1012 @@
                 "item": 5,
                 "children": [
                   {
-                    "item": 6,
+                    "item": 7,
                     "children": [
                       {
-                        "item": 7,
+                        "item": 10,
+                        "children": [
+                          {
+                            "item": 11,
+                            "children": [
+                              {
+                                "item": 12,
+                                "children": [],
+                                "leaf": [
+                                  "T12"
+                                ]
+                              }
+                            ],
+                            "leaf": null
+                          }
+                        ],
+                        "leaf": null
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 5,
+            "children": [
+              {
+                "item": 6,
+                "children": [
+                  {
+                    "item": 8,
+                    "children": [
+                      {
+                        "item": 10,
+                        "children": [
+                          {
+                            "item": 12,
+                            "children": [],
+                            "leaf": [
+                              "T20"
+                            ]
+                          }
+                        ],
+                        "leaf": null
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      }
+    ],
+    "leaf": null
+  },
+  "5": {
+    "item": 5,
+    "children": [
+      {
+        "item": 6,
+        "children": [
+          {
+            "item": 7,
+            "children": [
+              {
+                "item": 11,
+                "children": [
+                  {
+                    "item": 12,
+                    "children": [],
+                    "leaf": [
+                      "T1"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 8,
+            "children": [
+              {
+                "item": 12,
+                "children": [],
+                "leaf": [
+                  "T3"
+                ]
+              },
+              {
+                "item": 10,
+                "children": [
+                  {
+                    "item": 12,
+                    "children": [],
+                    "leaf": [
+                      "T20"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 7,
+        "children": [
+          {
+            "item": 10,
+            "children": [
+              {
+                "item": 11,
+                "children": [
+                  {
+                    "item": 12,
+                    "children": [],
+                    "leaf": [
+                      "T12"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 9,
+        "children": [
+          {
+            "item": 7,
+            "children": [
+              {
+                "item": 10,
+                "children": [
+                  {
+                    "item": 12,
+                    "children": [
+                      {
+                        "item": 11,
                         "children": [],
                         "leaf": [
-                          "O10"
+                          "T13"
                         ]
                       }
                     ],
                     "leaf": null
                   }
                 ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 10,
+            "children": [
+              {
+                "item": 12,
+                "children": [],
                 "leaf": [
-                  "O1",
-                  "O6",
-                  "O8"
+                  "T15"
+                ]
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 8,
+        "children": [
+          {
+            "item": 9,
+            "children": [
+              {
+                "item": 7,
+                "children": [
+                  {
+                    "item": 10,
+                    "children": [
+                      {
+                        "item": 11,
+                        "children": [],
+                        "leaf": [
+                          "T14"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              },
+              {
+                "item": 11,
+                "children": [],
+                "leaf": [
+                  "T19"
+                ]
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      }
+    ],
+    "leaf": null
+  },
+  "6": {
+    "item": 6,
+    "children": [
+      {
+        "item": 7,
+        "children": [
+          {
+            "item": 11,
+            "children": [
+              {
+                "item": 12,
+                "children": [],
+                "leaf": [
+                  "T1"
+                ]
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 12,
+            "children": [],
+            "leaf": [
+              "T17"
+            ]
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 8,
+        "children": [
+          {
+            "item": 12,
+            "children": [],
+            "leaf": [
+              "T3"
+            ]
+          },
+          {
+            "item": 10,
+            "children": [
+              {
+                "item": 11,
+                "children": [
+                  {
+                    "item": 12,
+                    "children": [],
+                    "leaf": [
+                      "T4"
+                    ]
+                  }
+                ],
+                "leaf": null
+              },
+              {
+                "item": 12,
+                "children": [],
+                "leaf": [
+                  "T20"
+                ]
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 9,
+        "children": [
+          {
+            "item": 11,
+            "children": [
+              {
+                "item": 12,
+                "children": [],
+                "leaf": [
+                  "T5"
+                ]
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 8,
+            "children": [
+              {
+                "item": 12,
+                "children": [],
+                "leaf": [
+                  "T9"
+                ]
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 5,
+        "children": [
+          {
+            "item": 8,
+            "children": [
+              {
+                "item": 9,
+                "children": [
+                  {
+                    "item": 11,
+                    "children": [],
+                    "leaf": [
+                      "T19"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      }
+    ],
+    "leaf": null
+  },
+  "7": {
+    "item": 7,
+    "children": [
+      {
+        "item": 11,
+        "children": [
+          {
+            "item": 12,
+            "children": [],
+            "leaf": [
+              "T1"
+            ]
+          }
+        ],
+        "leaf": [
+          "T2"
+        ]
+      },
+      {
+        "item": 9,
+        "children": [
+          {
+            "item": 10,
+            "children": [],
+            "leaf": [
+              "T6"
+            ]
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 10,
+        "children": [
+          {
+            "item": 12,
+            "children": [
+              {
+                "item": 11,
+                "children": [],
+                "leaf": [
+                  "T13"
+                ]
+              }
+            ],
+            "leaf": [
+              "T8"
+            ]
+          },
+          {
+            "item": 11,
+            "children": [
+              {
+                "item": 12,
+                "children": [],
+                "leaf": [
+                  "T12"
+                ]
+              }
+            ],
+            "leaf": [
+              "T14"
+            ]
+          }
+        ],
+        "leaf": [
+          "T10"
+        ]
+      },
+      {
+        "item": 12,
+        "children": [],
+        "leaf": [
+          "T17"
+        ]
+      }
+    ],
+    "leaf": null
+  },
+  "11": {
+    "item": 11,
+    "children": [
+      {
+        "item": 12,
+        "children": [],
+        "leaf": [
+          "T1",
+          "T4",
+          "T5",
+          "T12"
+        ]
+      }
+    ],
+    "leaf": [
+      "T2",
+      "T7",
+      "T13",
+      "T14",
+      "T16",
+      "T18",
+      "T19"
+    ]
+  },
+  "12": {
+    "item": 12,
+    "children": [
+      {
+        "item": 11,
+        "children": [],
+        "leaf": [
+          "T13"
+        ]
+      }
+    ],
+    "leaf": [
+      "T1",
+      "T3",
+      "T4",
+      "T5",
+      "T8",
+      "T9",
+      "T12",
+      "T15",
+      "T17",
+      "T20"
+    ]
+  },
+  "8": {
+    "item": 8,
+    "children": [
+      {
+        "item": 12,
+        "children": [],
+        "leaf": [
+          "T3",
+          "T9"
+        ]
+      },
+      {
+        "item": 10,
+        "children": [
+          {
+            "item": 11,
+            "children": [
+              {
+                "item": 12,
+                "children": [],
+                "leaf": [
+                  "T4"
+                ]
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 12,
+            "children": [],
+            "leaf": [
+              "T20"
+            ]
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 7,
+        "children": [
+          {
+            "item": 9,
+            "children": [
+              {
+                "item": 10,
+                "children": [],
+                "leaf": [
+                  "T6"
+                ]
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 9,
+        "children": [
+          {
+            "item": 10,
+            "children": [],
+            "leaf": [
+              "T11"
+            ]
+          },
+          {
+            "item": 7,
+            "children": [
+              {
+                "item": 10,
+                "children": [
+                  {
+                    "item": 11,
+                    "children": [],
+                    "leaf": [
+                      "T14"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 11,
+            "children": [],
+            "leaf": [
+              "T19"
+            ]
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 11,
+        "children": [],
+        "leaf": [
+          "T16"
+        ]
+      }
+    ],
+    "leaf": null
+  },
+  "2": {
+    "item": 2,
+    "children": [
+      {
+        "item": 6,
+        "children": [
+          {
+            "item": 8,
+            "children": [
+              {
+                "item": 10,
+                "children": [
+                  {
+                    "item": 11,
+                    "children": [
+                      {
+                        "item": 12,
+                        "children": [],
+                        "leaf": [
+                          "T4"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 3,
+        "children": [
+          {
+            "item": 8,
+            "children": [
+              {
+                "item": 9,
+                "children": [
+                  {
+                    "item": 10,
+                    "children": [],
+                    "leaf": [
+                      "T11"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 4,
+        "children": [
+          {
+            "item": 5,
+            "children": [
+              {
+                "item": 8,
+                "children": [
+                  {
+                    "item": 9,
+                    "children": [
+                      {
+                        "item": 7,
+                        "children": [
+                          {
+                            "item": 10,
+                            "children": [
+                              {
+                                "item": 11,
+                                "children": [],
+                                "leaf": [
+                                  "T14"
+                                ]
+                              }
+                            ],
+                            "leaf": null
+                          }
+                        ],
+                        "leaf": null
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 8,
+        "children": [
+          {
+            "item": 11,
+            "children": [],
+            "leaf": [
+              "T16"
+            ]
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 11,
+        "children": [],
+        "leaf": [
+          "T18"
+        ]
+      }
+    ],
+    "leaf": null
+  },
+  "10": {
+    "item": 10,
+    "children": [
+      {
+        "item": 11,
+        "children": [
+          {
+            "item": 12,
+            "children": [],
+            "leaf": [
+              "T4",
+              "T12"
+            ]
+          }
+        ],
+        "leaf": [
+          "T14"
+        ]
+      },
+      {
+        "item": 12,
+        "children": [
+          {
+            "item": 11,
+            "children": [],
+            "leaf": [
+              "T13"
+            ]
+          }
+        ],
+        "leaf": [
+          "T8",
+          "T15",
+          "T20"
+        ]
+      }
+    ],
+    "leaf": [
+      "T6",
+      "T10",
+      "T11"
+    ]
+  },
+  "4": {
+    "item": 4,
+    "children": [
+      {
+        "item": 6,
+        "children": [
+          {
+            "item": 9,
+            "children": [
+              {
+                "item": 11,
+                "children": [
+                  {
+                    "item": 12,
+                    "children": [],
+                    "leaf": [
+                      "T5"
+                    ]
+                  }
+                ],
+                "leaf": null
+              },
+              {
+                "item": 8,
+                "children": [
+                  {
+                    "item": 12,
+                    "children": [],
+                    "leaf": [
+                      "T9"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 5,
+            "children": [
+              {
+                "item": 8,
+                "children": [
+                  {
+                    "item": 9,
+                    "children": [
+                      {
+                        "item": 11,
+                        "children": [],
+                        "leaf": [
+                          "T19"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 8,
+        "children": [
+          {
+            "item": 7,
+            "children": [
+              {
+                "item": 9,
+                "children": [
+                  {
+                    "item": 10,
+                    "children": [],
+                    "leaf": [
+                      "T6"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 5,
+        "children": [
+          {
+            "item": 7,
+            "children": [
+              {
+                "item": 10,
+                "children": [
+                  {
+                    "item": 11,
+                    "children": [
+                      {
+                        "item": 12,
+                        "children": [],
+                        "leaf": [
+                          "T12"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 8,
+            "children": [
+              {
+                "item": 9,
+                "children": [
+                  {
+                    "item": 7,
+                    "children": [
+                      {
+                        "item": 10,
+                        "children": [
+                          {
+                            "item": 11,
+                            "children": [],
+                            "leaf": [
+                              "T14"
+                            ]
+                          }
+                        ],
+                        "leaf": null
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          },
+          {
+            "item": 9,
+            "children": [
+              {
+                "item": 10,
+                "children": [
+                  {
+                    "item": 12,
+                    "children": [],
+                    "leaf": [
+                      "T15"
+                    ]
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      }
+    ],
+    "leaf": null
+  },
+  "9": {
+    "item": 9,
+    "children": [
+      {
+        "item": 11,
+        "children": [
+          {
+            "item": 12,
+            "children": [],
+            "leaf": [
+              "T5"
+            ]
+          }
+        ],
+        "leaf": [
+          "T7",
+          "T19"
+        ]
+      },
+      {
+        "item": 10,
+        "children": [
+          {
+            "item": 12,
+            "children": [],
+            "leaf": [
+              "T15"
+            ]
+          }
+        ],
+        "leaf": [
+          "T6",
+          "T11"
+        ]
+      },
+      {
+        "item": 8,
+        "children": [
+          {
+            "item": 12,
+            "children": [],
+            "leaf": [
+              "T9"
+            ]
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 7,
+        "children": [
+          {
+            "item": 10,
+            "children": [
+              {
+                "item": 12,
+                "children": [
+                  {
+                    "item": 11,
+                    "children": [],
+                    "leaf": [
+                      "T13"
+                    ]
+                  }
+                ],
+                "leaf": null
+              },
+              {
+                "item": 11,
+                "children": [],
+                "leaf": [
+                  "T14"
                 ]
               }
             ],
@@ -47,38 +1111,121 @@
         "item": 4,
         "children": [
           {
-            "item": 5,
+            "item": 8,
             "children": [
               {
-                "item": 6,
+                "item": 7,
                 "children": [
                   {
-                    "item": 7,
-                    "children": [],
-                    "leaf": [
-                      "O10"
-                    ]
+                    "item": 9,
+                    "children": [
+                      {
+                        "item": 10,
+                        "children": [],
+                        "leaf": [
+                          "T6"
+                        ]
+                      }
+                    ],
+                    "leaf": null
                   }
                 ],
                 "leaf": null
               }
             ],
-            "leaf": [
-              "O1",
-              "O3",
-              "O6",
-              "O8"
-            ]
+            "leaf": null
+          },
+          {
+            "item": 5,
+            "children": [
+              {
+                "item": 7,
+                "children": [
+                  {
+                    "item": 10,
+                    "children": [
+                      {
+                        "item": 11,
+                        "children": [
+                          {
+                            "item": 12,
+                            "children": [],
+                            "leaf": [
+                              "T12"
+                            ]
+                          }
+                        ],
+                        "leaf": null
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              },
+              {
+                "item": 9,
+                "children": [
+                  {
+                    "item": 10,
+                    "children": [
+                      {
+                        "item": 12,
+                        "children": [],
+                        "leaf": [
+                          "T15"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
+              }
+            ],
+            "leaf": null
           }
         ],
         "leaf": null
-      }
-    ],
-    "leaf": null
-  },
-  "4": {
-    "item": 4,
-    "children": [
+      },
+      {
+        "item": 8,
+        "children": [
+          {
+            "item": 9,
+            "children": [
+              {
+                "item": 10,
+                "children": [],
+                "leaf": [
+                  "T11"
+                ]
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
+      {
+        "item": 6,
+        "children": [
+          {
+            "item": 7,
+            "children": [
+              {
+                "item": 12,
+                "children": [],
+                "leaf": [
+                  "T17"
+                ]
+              }
+            ],
+            "leaf": null
+          }
+        ],
+        "leaf": null
+      },
       {
         "item": 5,
         "children": [
@@ -86,98 +1233,31 @@
             "item": 6,
             "children": [
               {
-                "item": 7,
-                "children": [],
-                "leaf": [
-                  "O10"
-                ]
+                "item": 8,
+                "children": [
+                  {
+                    "item": 10,
+                    "children": [
+                      {
+                        "item": 12,
+                        "children": [],
+                        "leaf": [
+                          "T20"
+                        ]
+                      }
+                    ],
+                    "leaf": null
+                  }
+                ],
+                "leaf": null
               }
             ],
             "leaf": null
           }
         ],
-        "leaf": [
-          "O1",
-          "O3",
-          "O6",
-          "O8"
-        ]
-      }
-    ],
-    "leaf": null
-  },
-  "5": {
-    "item": 5,
-    "children": [
-      {
-        "item": 6,
-        "children": [
-          {
-            "item": 7,
-            "children": [],
-            "leaf": [
-              "O10"
-            ]
-          }
-        ],
-        "leaf": null
-      }
-    ],
-    "leaf": [
-      "O1",
-      "O3",
-      "O6",
-      "O8"
-    ]
-  },
-  "2": {
-    "item": 2,
-    "children": [
-      {
-        "item": 6,
-        "children": [
-          {
-            "item": 7,
-            "children": [],
-            "leaf": [
-              "O2",
-              "O5",
-              "O7",
-              "O9"
-            ]
-          }
-        ],
         "leaf": null
       }
     ],
     "leaf": null
-  },
-  "6": {
-    "item": 6,
-    "children": [
-      {
-        "item": 7,
-        "children": [],
-        "leaf": [
-          "O2",
-          "O5",
-          "O7",
-          "O9",
-          "O10"
-        ]
-      }
-    ],
-    "leaf": null
-  },
-  "7": {
-    "item": 7,
-    "children": [],
-    "leaf": [
-      "O2",
-      "O5",
-      "O7",
-      "O9",
-      "O10"
-    ]
   }
 }

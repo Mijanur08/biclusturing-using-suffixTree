@@ -1,0 +1,916 @@
+[
+  {
+    "itemset": [
+      11,
+      7
+    ],
+    "support": 5,
+    "object": [
+      "T1",
+      "T13",
+      "T12",
+      "T2",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      12,
+      7
+    ],
+    "support": 3,
+    "object": [
+      "T13",
+      "T12",
+      "T8"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      7
+    ],
+    "support": 6,
+    "object": [
+      "T10",
+      "T13",
+      "T12",
+      "T8",
+      "T14",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      12
+    ],
+    "support": 5,
+    "object": [
+      "T5",
+      "T1",
+      "T13",
+      "T12",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      12
+    ],
+    "support": 4,
+    "object": [
+      "T20",
+      "T3",
+      "T9",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      2,
+      11
+    ],
+    "support": 3,
+    "object": [
+      "T14",
+      "T4",
+      "T16"
+    ]
+  },
+  {
+    "itemset": [
+      2,
+      11
+    ],
+    "support": 4,
+    "object": [
+      "T18",
+      "T14",
+      "T4",
+      "T16"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      11,
+      12
+    ],
+    "support": 3,
+    "object": [
+      "T13",
+      "T4",
+      "T12"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      12
+    ],
+    "support": 6,
+    "object": [
+      "T20",
+      "T12",
+      "T15",
+      "T13",
+      "T8",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      11
+    ],
+    "support": 5,
+    "object": [
+      "T5",
+      "T7",
+      "T19",
+      "T13",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      10
+    ],
+    "support": 5,
+    "object": [
+      "T13",
+      "T15",
+      "T14",
+      "T11",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      1,
+      12,
+      6
+    ],
+    "support": 4,
+    "object": [
+      "T5",
+      "T1",
+      "T20",
+      "T9"
+    ]
+  },
+  {
+    "itemset": [
+      12,
+      5,
+      6
+    ],
+    "support": 3,
+    "object": [
+      "T1",
+      "T20",
+      "T3"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      12,
+      5,
+      7
+    ],
+    "support": 3,
+    "object": [
+      "T1",
+      "T13",
+      "T12"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      12,
+      7
+    ],
+    "support": 3,
+    "object": [
+      "T1",
+      "T13",
+      "T12"
+    ]
+  },
+  {
+    "itemset": [
+      12,
+      7
+    ],
+    "support": 5,
+    "object": [
+      "T1",
+      "T13",
+      "T12",
+      "T8",
+      "T17"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      12,
+      6
+    ],
+    "support": 3,
+    "object": [
+      "T5",
+      "T1",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      5,
+      7
+    ],
+    "support": 4,
+    "object": [
+      "T1",
+      "T13",
+      "T12",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      12,
+      5
+    ],
+    "support": 6,
+    "object": [
+      "T20",
+      "T12",
+      "T3",
+      "T15",
+      "T1",
+      "T13"
+    ]
+  },
+  {
+    "itemset": [
+      12,
+      6
+    ],
+    "support": 7,
+    "object": [
+      "T20",
+      "T3",
+      "T9",
+      "T5",
+      "T1",
+      "T17",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      11,
+      4
+    ],
+    "support": 3,
+    "object": [
+      "T5",
+      "T19",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      4
+    ],
+    "support": 6,
+    "object": [
+      "T19",
+      "T9",
+      "T6",
+      "T5",
+      "T15",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      4,
+      12
+    ],
+    "support": 3,
+    "object": [
+      "T5",
+      "T9",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      1,
+      4,
+      12
+    ],
+    "support": 3,
+    "object": [
+      "T5",
+      "T12",
+      "T9"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      12,
+      6
+    ],
+    "support": 4,
+    "object": [
+      "T20",
+      "T3",
+      "T9",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      12
+    ],
+    "support": 4,
+    "object": [
+      "T5",
+      "T13",
+      "T9",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      9
+    ],
+    "support": 5,
+    "object": [
+      "T19",
+      "T9",
+      "T11",
+      "T6",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      9,
+      4
+    ],
+    "support": 4,
+    "object": [
+      "T19",
+      "T14",
+      "T9",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      3
+    ],
+    "support": 5,
+    "object": [
+      "T20",
+      "T15",
+      "T12",
+      "T11",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      4,
+      5
+    ],
+    "support": 3,
+    "object": [
+      "T19",
+      "T12",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      12,
+      5
+    ],
+    "support": 4,
+    "object": [
+      "T20",
+      "T13",
+      "T12",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      10,
+      3
+    ],
+    "support": 3,
+    "object": [
+      "T20",
+      "T11",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      5,
+      6
+    ],
+    "support": 3,
+    "object": [
+      "T19",
+      "T20",
+      "T3"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      3,
+      12,
+      5
+    ],
+    "support": 3,
+    "object": [
+      "T20",
+      "T12",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      5
+    ],
+    "support": 4,
+    "object": [
+      "T19",
+      "T20",
+      "T14",
+      "T3"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      11,
+      5
+    ],
+    "support": 3,
+    "object": [
+      "T19",
+      "T13",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      10,
+      7
+    ],
+    "support": 3,
+    "object": [
+      "T13",
+      "T14",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      11,
+      7
+    ],
+    "support": 3,
+    "object": [
+      "T13",
+      "T12",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      2,
+      10
+    ],
+    "support": 3,
+    "object": [
+      "T14",
+      "T4",
+      "T11"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      10
+    ],
+    "support": 5,
+    "object": [
+      "T20",
+      "T14",
+      "T4",
+      "T11",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      2
+    ],
+    "support": 4,
+    "object": [
+      "T14",
+      "T4",
+      "T11",
+      "T16"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      10,
+      3
+    ],
+    "support": 3,
+    "object": [
+      "T6",
+      "T11",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      11
+    ],
+    "support": 4,
+    "object": [
+      "T12",
+      "T13",
+      "T14",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      11
+    ],
+    "support": 4,
+    "object": [
+      "T19",
+      "T14",
+      "T4",
+      "T16"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      4,
+      5
+    ],
+    "support": 3,
+    "object": [
+      "T19",
+      "T14",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      3,
+      7
+    ],
+    "support": 3,
+    "object": [
+      "T12",
+      "T17",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      3,
+      12
+    ],
+    "support": 4,
+    "object": [
+      "T20",
+      "T12",
+      "T17",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      1,
+      11,
+      12
+    ],
+    "support": 3,
+    "object": [
+      "T5",
+      "T1",
+      "T12"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      6
+    ],
+    "support": 4,
+    "object": [
+      "T5",
+      "T19",
+      "T1",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      1,
+      12
+    ],
+    "support": 5,
+    "object": [
+      "T5",
+      "T1",
+      "T20",
+      "T12",
+      "T9"
+    ]
+  },
+  {
+    "itemset": [
+      1,
+      12,
+      5
+    ],
+    "support": 3,
+    "object": [
+      "T1",
+      "T20",
+      "T12"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      5
+    ],
+    "support": 5,
+    "object": [
+      "T19",
+      "T12",
+      "T1",
+      "T13",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      5,
+      6
+    ],
+    "support": 4,
+    "object": [
+      "T19",
+      "T20",
+      "T3",
+      "T1"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      4,
+      6
+    ],
+    "support": 3,
+    "object": [
+      "T5",
+      "T19",
+      "T9"
+    ]
+  },
+  {
+    "itemset": [
+      11,
+      4
+    ],
+    "support": 4,
+    "object": [
+      "T19",
+      "T12",
+      "T5",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      4,
+      12
+    ],
+    "support": 4,
+    "object": [
+      "T5",
+      "T12",
+      "T9",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      6
+    ],
+    "support": 5,
+    "object": [
+      "T19",
+      "T20",
+      "T3",
+      "T9",
+      "T4"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      5
+    ],
+    "support": 5,
+    "object": [
+      "T20",
+      "T13",
+      "T12",
+      "T14",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      11,
+      5,
+      7
+    ],
+    "support": 3,
+    "object": [
+      "T13",
+      "T12",
+      "T14"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      4,
+      7
+    ],
+    "support": 3,
+    "object": [
+      "T12",
+      "T14",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      4,
+      5
+    ],
+    "support": 3,
+    "object": [
+      "T12",
+      "T14",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      4,
+      5
+    ],
+    "support": 4,
+    "object": [
+      "T19",
+      "T12",
+      "T14",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      3,
+      4
+    ],
+    "support": 3,
+    "object": [
+      "T6",
+      "T12",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      10,
+      5
+    ],
+    "support": 3,
+    "object": [
+      "T13",
+      "T14",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      5
+    ],
+    "support": 4,
+    "object": [
+      "T19",
+      "T13",
+      "T14",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      8,
+      9,
+      10
+    ],
+    "support": 3,
+    "object": [
+      "T14",
+      "T11",
+      "T6"
+    ]
+  },
+  {
+    "itemset": [
+      9,
+      10,
+      4
+    ],
+    "support": 3,
+    "object": [
+      "T6",
+      "T14",
+      "T15"
+    ]
+  },
+  {
+    "itemset": [
+      10,
+      4
+    ],
+    "support": 4,
+    "object": [
+      "T12",
+      "T15",
+      "T6",
+      "T14"
+    ]
+  }
+]

@@ -1,0 +1,582 @@
+[
+  {
+    "itemset": [
+      11,
+      7
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      10,
+      12,
+      7
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      10,
+      7
+    ],
+    "support": 6
+  },
+  {
+    "itemset": [
+      11,
+      12
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      11
+    ],
+    "support": 11
+  },
+  {
+    "itemset": [
+      12
+    ],
+    "support": 11
+  },
+  {
+    "itemset": [
+      8,
+      12
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      8,
+      2,
+      11
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      2,
+      11
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      10,
+      11,
+      12
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      10,
+      12
+    ],
+    "support": 6
+  },
+  {
+    "itemset": [
+      10
+    ],
+    "support": 10
+  },
+  {
+    "itemset": [
+      9,
+      11
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      9,
+      10
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      1,
+      12,
+      6
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      12,
+      5,
+      6
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      11,
+      12,
+      5,
+      7
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      11,
+      12,
+      7
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      12,
+      7
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      7
+    ],
+    "support": 9
+  },
+  {
+    "itemset": [
+      11,
+      12,
+      6
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      11,
+      5,
+      7
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      12,
+      5
+    ],
+    "support": 6
+  },
+  {
+    "itemset": [
+      12,
+      6
+    ],
+    "support": 7
+  },
+  {
+    "itemset": [
+      9
+    ],
+    "support": 9
+  },
+  {
+    "itemset": [
+      9,
+      11,
+      4
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      9,
+      4
+    ],
+    "support": 6
+  },
+  {
+    "itemset": [
+      9,
+      4,
+      12
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      1,
+      4,
+      12
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      8,
+      12,
+      6
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      9,
+      12
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      8,
+      9
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      8,
+      9,
+      4
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      8
+    ],
+    "support": 9
+  },
+  {
+    "itemset": [
+      10,
+      3
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      11,
+      4,
+      5
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      10,
+      12,
+      5
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      8,
+      10,
+      3
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      8,
+      5,
+      6
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      10,
+      3,
+      12,
+      5
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      8,
+      5
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      9,
+      11,
+      5
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      9,
+      10,
+      7
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      10,
+      11,
+      7
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      8,
+      2,
+      10
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      8,
+      10
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      8,
+      2
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      2
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      9,
+      10,
+      3
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      3
+    ],
+    "support": 6
+  },
+  {
+    "itemset": [
+      10,
+      11
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      8,
+      11
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      9,
+      4,
+      5
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      6
+    ],
+    "support": 8
+  },
+  {
+    "itemset": [
+      3,
+      7
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      3,
+      12
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      1,
+      11,
+      12
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      11,
+      6
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      1,
+      12
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      1,
+      12,
+      5
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      11,
+      5
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      5
+    ],
+    "support": 8
+  },
+  {
+    "itemset": [
+      5,
+      6
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      9,
+      4,
+      6
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      11,
+      4
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      4
+    ],
+    "support": 7
+  },
+  {
+    "itemset": [
+      4,
+      12
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      8,
+      6
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      10,
+      5
+    ],
+    "support": 5
+  },
+  {
+    "itemset": [
+      10,
+      11,
+      5,
+      7
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      10,
+      4,
+      7
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      10,
+      4,
+      5
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      4,
+      5
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      10,
+      3,
+      4
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      9,
+      10,
+      5
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      9,
+      5
+    ],
+    "support": 4
+  },
+  {
+    "itemset": [
+      8,
+      9,
+      10
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      9,
+      10,
+      4
+    ],
+    "support": 3
+  },
+  {
+    "itemset": [
+      10,
+      4
+    ],
+    "support": 4
+  }
+]

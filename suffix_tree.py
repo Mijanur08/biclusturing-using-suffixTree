@@ -23,8 +23,8 @@ def build_sufix_tree(sfd):
     # HTree
     h_tree = {}
 
-    for state in sfd.keys():
-        suffixes = get_all_suffix(sfd[state], [state])
+    for rows in sfd.keys():
+        suffixes = get_all_suffix(sfd[rows], [rows])
 
         for suffix in suffixes:
             assert len(suffix) > 1
@@ -46,12 +46,12 @@ def match(h_node, suffix):
         else:
             # merge the new leaf with the existing leaf
             leaf = h_node["leaf"]
-            state = suffix[1][0]
+            tid = suffix[1][0]
 
-            if (state in leaf):
+            if (tid in leaf):
                 print("Warning: Same row already exists in TREE.")
             else:
-                leaf.append(state)
+                leaf.append(tid)
     else:
         # suffix[1] will not be a leaf
 
@@ -79,26 +79,26 @@ def build(suffix):
     return h_node
 
 
-if __name__ =='__main__':
+# if __name__ =='__main__':
 
-    SFD_mdm = {
-        "O1": [1,3,4,5],
-        "O2": [2,6,7],
-        "O3": [3,4,5],
-        "O5": [2,6,7],
-        "O6": [1,3,4,5],
-        "O7": [2,6,7],
-        "O8": [1,3,4,5],
-        "O9": [2,6,7],
-        "O10": [1,3,4,5,6,7]
-    }
+#     SFD_mdm = {
+#         "O1": [1,3,4,5],
+#         "O2": [2,6,7],
+#         "O3": [3,4,5],
+#         "O5": [2,6,7],
+#         "O6": [1,3,4,5],
+#         "O7": [2,6,7],
+#         "O8": [1,3,4,5],
+#         "O9": [2,6,7],
+#         "O10": [1,3,4,5,6,7]
+#     }
 
 
-    tree = build_sufix_tree(SFD_mdm)
+#     tree = build_sufix_tree(SFD_mdm)
 
-    from printing_util import generate_tree_image
-    generate_tree_image(tree, "tree.png")
+#     from printing_util import generate_tree_image
+#     generate_tree_image(tree, "tree.png")
 
-    from json import dumps
-    with open("tree.json", "w") as outputfile:
-        outputfile.write(dumps(tree, indent=2))
+#     from json import dumps
+#     with open("tree.json", "w") as outputfile:
+#         outputfile.write(dumps(tree, indent=2))
