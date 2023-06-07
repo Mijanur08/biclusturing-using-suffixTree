@@ -1,4 +1,4 @@
-
+from printing_util import generate_tree_image
 def get_all_suffix(arr, leaf_obj):
     all_suffix = []
 
@@ -18,6 +18,17 @@ def get_suffix(arr, idx, leaf_obj):
     suffix.append(leaf_obj)
     return suffix
 
+def generate_tree_as_image(tree,tree_path):
+    # output-3 : Tree Image
+    generate_tree_image(tree, tree_path )
+    print("\nImage of the suffix tree is generated in file : ",tree_path)
+
+
+def generate_tree_JSON(tree,tree_path):
+    from json import dumps
+    with open(tree_path, "w") as outputfile:
+        outputfile.write(dumps(tree, indent=2))
+    print("\nSuffix tree is stored in file : ",tree_path)
 
 def build_sufix_tree(sfd):
     # HTree

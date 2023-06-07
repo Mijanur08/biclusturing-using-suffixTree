@@ -1,0 +1,6 @@
+ID,Itemsets
+O1,"P1,P3,A2,A4"
+O2,"P1,P3,A1,A2"
+O3,"P2,P5,A3"
+O4,"P1,P3,P4,A2,A4"
+O5,"P1,P2,P3,P5,A2,A4"

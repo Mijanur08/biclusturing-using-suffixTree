@@ -7,8 +7,10 @@
 # g[0] is the generator pattern
 # g[1] is the closure pattern
 
-import itertools
 from Pattern import Pattern
+from json import dumps
+import itertools
+import csv
 
 def get_generators(FCP: list):
     """Returns the list of generators from the FCP list"""
@@ -47,6 +49,22 @@ def get_generators(FCP: list):
     return GEN
 
 
+def write_generators_to_csv( GENs: list, gen_path):
+    #Output-5 Generators
+    with open(gen_path, 'w', newline='') as file:
+        writer = csv.writer(file)    
+        # Write the header
+        writer.writerow(['Genrator', 'Closure', 'Support Objects'])    
+        # Write each key-value pair as a row in the CSV file
+        for g in GENs:
+            writer.writerow([g[0].get_itemset(), g[1].get_itemset(), g[1].get_object()])
+    print("\nGenerators are Created in the directory : ",gen_path)
+
+def write_generators_toJSON(GENs:list, gen_path):
+    GENJSON = [{ "generator" : list(g[0].get_itemset()), "FCP" : g[1].toJSON()} for g in GENs]
+    with open(gen_path, "w") as outputfile:
+        outputfile.write(dumps(GENJSON, indent=2))
+    print("\nGenerators are Created as json in the directory : ",gen_path)
 
 def comparator(pattern: Pattern) ->int:
     """Custom key funtion that will be used for used for sorting FCPs

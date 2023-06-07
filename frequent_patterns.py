@@ -1,5 +1,6 @@
-import copy
 from Pattern import Pattern
+from json import dumps
+import csv
 
 
 def get_FCPs(h_tree, min_support_count = 1):
@@ -54,6 +55,22 @@ def get_FCPs(h_tree, min_support_count = 1):
     return FCP
 
 
+def convert_fcp_to_csv(FCP,fcp_path):
+    #output-4 : Frequent Closed Patterns
+    with open(fcp_path, 'w', newline='') as file:
+        writer = csv.writer(file)    
+        # Write the header
+        writer.writerow(['FCPs', 'Support Objects','Support count'])    
+        # Write each key-value pair as a row in the CSV file
+        for fs in FCP:
+            writer.writerow([fs.get_itemset(), fs.get_object(), fs.support_count()])
+    print("\nFCPs are stored in file : ",fcp_path)
+
+def convert_fcp_to_JSON(FCP,fcp_path):
+    FCPJSON = [fcp.toJSON() for fcp in FCP]
+    with open(fcp_path, "w") as outputfile:
+        outputfile.write(dumps(FCPJSON, indent=2))
+    print("\nFCPS in JSON format is stored in file : ",fcp_path)
 
 def get_all_Patterns(h_tree) -> list:
     """ Returns all possible item sets along with their object lists """
